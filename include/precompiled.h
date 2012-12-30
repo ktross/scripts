@@ -44,9 +44,7 @@ typedef std::set<ObjectGuid> GuidSet;
 // only used with remove mode, hence ok this way
 #define AURA_STATE_HEALTHLESS_35_PERCENT  AURA_STATE_HEALTHLESS_20_PERCENT
 
-#define SelectAttackingTarget(a, b, c, d)       SelectAttackingTarget(a, b)
 #define MoveRandomAroundPoint(x, y, z, range)   MoveIdle()
-#define PlayDirectSoundToMap(a, b)              PlayDirectSoundToMap(a)
 
 // sc_gossip.h:             ADD_GOSSIP_ITEM_EXTENDED outcommented box-money (Required until professions are fixed)
 // item_scripts.cpp:        Remove scripts with SendCastResult
