@@ -99,6 +99,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy ..\scriptdev2.conf.dist.in ..\..\..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -182,6 +183,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy ..\scriptdev2.conf.dist.in ..\..\..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -264,6 +266,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy ..\scriptdev2.conf.dist.in ..\..\..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -347,6 +350,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy ..\scriptdev2.conf.dist.in ..\..\..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 	</Configurations>
